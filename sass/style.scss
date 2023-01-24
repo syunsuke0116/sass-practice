@@ -1,0 +1,26 @@
+@charset 'UTF-8';
+
+$mainLineHight: 1.7;
+$mainColor: #432;
+$mainFont: 'Philosopher', sans-serif;
+$hoverColor: #0bd;
+
+* {
+    margin: 0;
+    padding: 0;
+};
+
+body {
+    font-family: $mainFont;
+    line-height: $mainLineHight;
+    color: $mainColor;
+    a {
+        text-decoration: none;
+        img {
+            max-width: 100%;
+        }
+    }
+};
+
+@import './_header.scss';
+

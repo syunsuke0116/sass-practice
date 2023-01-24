@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Philosopher", sans-serif;
+  line-height: 1.7;
+  color: #432; }
+  body a {
+    text-decoration: none; }
+    body a img {
+      max-width: 100%; }
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%; }
+  .page-header .logo {
+    width: 210px;
+    margin-top: 14px; }
+  .page-header .main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    margin-top: 34px;
+    list-style: none; }
+    .page-header .main-nav li {
+      margin-left: 36px; }
+      .page-header .main-nav li a {
+        color: #432; }
+        .page-header .main-nav li a:hover {
+          color: #0bd; }
+
+/*# sourceMappingURL=style.css.map */
